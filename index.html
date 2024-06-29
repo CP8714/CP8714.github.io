@@ -23,38 +23,38 @@ html {
   display: table;
 }
 
-.sidenav {
-  height: 100%;
-  width: 220px;
+.navbar {
+  overflow: hidden;
+  background-color: #333;
   position: fixed;
-  z-index: 1;
   top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  padding-top: 20px;
+  width: 100%;
 }
 
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
+.navbar a {
+  float: left;
   display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
-.sidenav a:hover {
-  color: #f1f1f1;
+.navbar a:hover {
+  background: #ddd;
+  color: black;
 }
+
 
 .main {
-  margin-left: 220px; /* Same as the width of the sidenav */
+  margin-top: 30px;
 }
 </style>
 </head>
 <body>
 
-<div class="sidenav">
+<div class="navbar">
   <a href="#section1">Home</a>
   <a href="#section2">Background</a>
   <a href="#section3">Design</a>
