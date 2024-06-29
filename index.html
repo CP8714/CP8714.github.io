@@ -104,8 +104,51 @@ html {
 .timeline-item:first-child::before {
     display: none;
 }
+
+.scroll-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.scroll-button.left {
+    left: 10px;
+}
+
+.scroll-button.right {
+    right: 10px;
+}
+
+.scroll-button:focus {
+    outline: none;
+}
+
+.scroll-button:hover {
+    background-color: #45a049;
+}
 </style>
 </head>
+<script>
+  document.querySelector('.scroll-button.left').addEventListener('click', () => {
+    document.querySelector('.timeline').scrollBy({
+        left: -200, // Adjust scroll distance as needed
+        behavior: 'smooth'
+    });
+  });
+
+  document.querySelector('.scroll-button.right').addEventListener('click', () => {
+      document.querySelector('.timeline').scrollBy({
+        left: 200, // Adjust scroll distance as needed
+        behavior: 'smooth'
+    });
+  });
+</script>
 <body>
 
 <div class="navbar">
