@@ -67,7 +67,6 @@ html {
 
 body {
   font: normal 16px/1.5 "Inter", sans-serif;
-  background: var(--columbia-blue);
   color: var(--black);
   margin-bottom: 50px;
 }
@@ -117,7 +116,7 @@ body {
   list-style-type: none;
   width: 160px;
   height: 5px;
-  background: var(--white);
+  background: red;
   scroll-snap-align: start;
 }
 
@@ -152,6 +151,7 @@ body {
   white-space: normal;
   color: var(--black);
   background: var(--white);
+  border-color: red;
   border-radius: 0 10px 10px 10px;
 }
 
