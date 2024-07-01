@@ -151,7 +151,6 @@ body {
   white-space: normal;
   color: var(--black);
   background: var(--white);
-  border-color: red;
   border-radius: 0 10px 10px 10px;
 }
 
