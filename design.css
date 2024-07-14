@@ -254,7 +254,8 @@ img {
   width: auto;
   padding: 16px;
   margin-top: -50px;
-  color: white;
+  color: black;
+  background-color: rgb(149, 69, 53);
   font-weight: bold;
   font-size: 20px;
   border-radius: 0 3px 3px 0;
@@ -271,7 +272,7 @@ img {
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: red;
 }
 
 /* Number text (1/3 etc) */
