@@ -4,92 +4,215 @@
 <body>
 <link rel="stylesheet" href="design.css">
 <div class="navbar">
-  <a href="#section1">Home</a>
-  <a href="#section3">The Machine</a>
-  <a href="#section4">Timeline</a>
-  <a href="#section5">Gallery</a>
-  <a href="#section6">Team</a>
-  <a href="#section7">Public Showcase</a>
+  <a href="#Home">Home</a>
+  <a href="#Description">The Machine</a>
+  <a href="#Design">Design & Specifications</a>
+  <a href="#Timeline">Timeline</a>
+  <a href="#Gallery">Gallery</a>
+  <a href="#Team">Team</a>
+  <a href="#Showcase">Public Showcase</a>
+  <a href="#Acknowledgement">Acknowledgements</a>
 </div>
-<div class="main" id="section1">
+<div class="main" id="Home">
 	<br>
 	<br>
   <div class="clearfix">
     <div class="img-container">
-      <img src="499Logo.jpg" alt="logo" style="width:95%;display:block;margin-left:auto;margin-right:auto">
+      <img src="499Logo.jpg" alt="logo" style="width:75%;display:block;margin-left:auto;margin-right:auto;position:relative;bottom:50px;">
     </div>
   </div>
 </div>
-<div class="main" id="section3">
-<br>
+<div class="main" id="Description">
 	<br>
+	<br>
+	<header>
   <h1>The Lichtenburg Woodburning Machine</h1>
+  </header>
   <br>
-  <h2>A Lichtenberg machine is an electrical device that is used by artists, woodworkers, and hobbyists to burn fractal
-patterns into wood. This fractal burning is achieved by placing high voltage probes across
-the wood which arc and conduct through the surface causing unique burn patterns. Our design will create
-these intricate burn patterns but with lower risks to the user through clever and redundant safety
-features implemented in the design as well as following safety precautions and procedures.</h2>
-  <p style="margin-top: 700px;">
+  <h3>In recent years, DIY fractal wood burning has become popularized in various forms of online media, contributing to a rise in fatalities due to electrocution from non-professionals attempting the process. Our design project proposes the design and construction of a Lichtenberg machine (the device used for fractal wood burning) to reduce and control the risks associated with this practice. The primary objective of this project is to explore the pitfalls and weaknesses with typically DIY Lichtenberg machines, and develop an alternative that doesn’t compromise on the desired fractal burn patterns, while considerably improving safety through hardware and software protections, redundancies, and failsafes. In addition to the prioritized focus on safety and operation of the Lichtenberg machine, the project delves into the details of custom transformer design, the handling of testing of high voltage systems, risk analysis, DC to AC converter topologies, and power electronics. The project’s research and test results demonstrate decreasing muscle contraction and nerve stimulation as electrical frequency increases, high voltage insulation properties of various materials, proper operation of a purpose built transformer, and the operation of a resonant tank converter to increase output frequency.</h3>
+  <p style="margin-top: 350px;">
 </div>
-<section class="timeline" id="section4">
-<br>
+<div class="main" id="Design">
+	<br>
+	<br>
+	<header>
+  <h1>Design & Specifications</h1>
+  </header>
+  <br>
+  <h3>Physical Specifications</h3>
+  <table style="width:40%">
+  <tr>
+    <th>Name</th>
+    <th>Minimum Rating</th>
+    <th>Maximum Rating</th>
+  </tr>
+  <tr>
+    <td>Dimensions (LxWxH)</td>
+    <td>26x38x20” *</td>
+    <td>30x40x40” *</td>
+  </tr>
+  <tr>
+    <td>Wood Dimensions (LxWxH)</td>
+    <td>2x2x1”</td>
+    <td>24x36x6” *</td>
+  </tr>
+  <tr>
+    <td>Total Weight</td>
+    <td>20 kg *</td>
+    <td>60 kg *</td>
+  </tr>
+	</table>
+	<p>*Estimated Values</p>
+	<p style="margin-top: 100px;">
+	<h3>Electrical Specifications</h3>
+  <table style="width:40%">
+  <tr>
+    <th>Name</th>
+    <th>Minimum Rating</th>
+    <th>Maximum Rating</th>
+  </tr>
+  <tr>
+    <td>Input Power</td>
+    <td>0 W</td>
+    <td>1500 W</td>
+  </tr>
+  <tr>
+    <td>Input Voltage</td>
+    <td>0V AC</td>
+    <td>120V AC</td>
+  </tr>
+  <tr>
+    <td>Input Current</td>
+    <td>60 Hz</td>
+    <td>60 Hz</td>
+  </tr>
+  <tr>
+    <td>Input Frequency</td>
+    <td>0 W</td>
+    <td>1350 W *</td>
+  </tr>
+  <tr>
+    <td>Output Power</td>
+    <td>20 kV *</td>
+    <td>30 kV *</td>
+  </tr>
+  <tr>
+    <td>Output Voltage</td>
+    <td>0 mA</td>
+    <td>70 mA *</td>
+  </tr>
+  <tr>
+    <td>Output Current</td>
+    <td>25000 Hz</td>
+    <td>50000 Hz</td>
+  </tr>
+  <tr>
+    <td>Output (Switching) Frequency</td>
+    <td>0 A</td>
+    <td>15 A</td>
+  </tr>
+  <tr>
+    <td>Transformer Primary Turns</td>
+    <td>10</td>
+    <td>12</td>
+  </tr>
+  <tr>
+    <td>Transformer Secondary Turns</td>
+    <td>1000</td>
+    <td>1000</td>
+  </tr>
+	</table>
+	<p>*Estimated Values</p>
+	<p style="margin-top: 100px;">
+  <div class="clearfix">
+    <div class="img-container">
+      <img src="499_block_diagram.png" alt="logo" style="width:100%;display:block;margin-left:auto;margin-right:auto">
+    </div>
+  </div>
+  <p style="margin-top: 100px;">
+</div>
+<section class="timeline" id="Timeline">
+	<br>
+	<header>
+  <h1 style="margin-top: 70px; margin-bottom: 30px;">The Project Timeline</h1>
+  </header>
+  <br>
+	<br>
+  <br>
   <ol>
     <li>
       <div>
-        <time>May 15, 2024</time> Group is formed, and the project is chosen to be a Lichtenburg Woodburning Machine
+        <time>May 17, 2024</time> Form a group and find a project supervisor.
       </div>
     </li>
     <li>
       <div>
-        <time>Second Date</time> Blah Blah Blah.
+        <time>May 24, 2024</time> Project idea finalized and approved by supervisor.
       </div>
     </li>
     <li>
       <div>
-        <time>Third Date</time> Blah Blah Blah.
+        <time>May 31, 2024</time> Project design parameters/specifications sent to supervisor. Research transformer options and feasibility online, and how a HF vs LF design would affect our project.
       </div>
     </li>
     <li>
       <div>
-        <time>Fourth Date</time> Blah Blah Blah.
+        <time>June 3, 2024</time> Source preliminary parts with hardware team members. List of chosen parts should be tabulated, logged, and ordered. Create a project logo, name, slogan.
       </div>
     </li>
     <li>
       <div>
-        <time>Fifth Date</time> Blah Blah Blah.
+        <time>June 10, 2024</time> Group meeting with project supervisor to follow up on specs/safety/etc.
       </div>
     </li>
     <li>
       <div>
-        <time>Sixth Date</time> Blah Blah Blah.
+        <time>June 14, 2024</time> Complete high voltage safety research as directed by the project supervisor.
       </div>
     </li>
     <li>
       <div>
-        <time>Seventh Date</time> Blah Blah Blah.
+        <time>June 17, 2024</time> Complete HIPOT resistance testing. Complete 3D prints of transformer components.
       </div>
     </li>
     <li>
       <div>
-        <time>Eighth Date</time> Blah Blah Blah.
+        <time>June 26, 2024</time> Acquire vacuum pump/chamber permissions.
       </div>
     </li>
     <li>
       <div>
-        <time>Ninth Date</time> Blah Blah Blah.
+        <time>June 28, 2024</time> Complete breadboard testing of gate drive circuit for resonant converter.
       </div>
     </li>
     <li>
       <div>
-        <time>Tenth Date</time> Blah Blah Blah.
+        <time>July 1, 2024</time> Order IGBT Switches and components.
       </div>
     </li>
-    <li>
+	<li>
       <div>
-        <time>Eleventh Date</time> Blah Blah Blah.
-        <br>
-        <img src="499Logo.jpg" alt="logo" style="width:20%">
+        <time>July 4, 2024</time> Use lab bench equipment for transformer functional testing.
+      </div>
+    </li>
+	<li>
+      <div>
+        <time>July 8, 2024</time> Complete coding for LCD Display functionality. Build and test resonant circuit and converter with transformer. Start enclosure design, safety features, etc.
+      </div>
+    </li>
+	<li>
+      <div>
+        <time>July 15, 2024</time> Complete overall website layout/pages. Perform breadboard testing of measurement control circuit. Finalize schematic and start PCB Design.
+      </div>
+    </li>
+	<li>
+      <div>
+        <time>July 26, 2024</time> Finalize website content and details.
+      </div>
+    </li>
+	<li>
+      <div>
+        <time>July 29, 2024</time> Assemble enclosure components and solder PCB. Final testing and troubleshooting, create demo wood burns.
       </div>
     </li>
     <li>
@@ -99,34 +222,39 @@ features implemented in the design as well as following safety precautions and p
     </li>
     <li></li>
   </ol>
-  <p style="margin-top: 700px;">
+  <p style="margin-top: 100px;">
 </section>
-<p style="margin-bottom: 1000px;">
-<div class="container" id="section5">
+<p style="margin-bottom: 100px;">
+<div class="container" id="Gallery">
 <br>
 	<br>
+	<header>
+  <h1>Project Gallery</h1>
+  </header>
   <div class="mySlides">
-    <img src="499_4_cad.jpg" style="height:400px;display:block;margin-left:auto;margin-right:auto">
+    <img src="499_4_cad.jpg" style="height:550px;display:block;margin-left:auto;margin-right:auto">
   </div>
 
   <div class="mySlides">
-    <img src="499_3_cad.jpg" style="height:400px;display:block;margin-left:auto;margin-right:auto">
+    <img src="499_3_cad.jpg" style="height:550px;display:block;margin-left:auto;margin-right:auto">
   </div>
 
   <div class="mySlides">
-    <img src="499_2_cad.jpg" style="height:400px;display:block;margin-left:auto;margin-right:auto">
+    <img src="499_2_cad.jpg" style="height:550px;display:block;margin-left:auto;margin-right:auto">
   </div>
     
   <div class="mySlides">
-    <img src="499_1_cad.jpg" style="height:400px;display:block;margin-left:auto;margin-right:auto">
+    <img src="499_1_cad.jpg" style="height:550px;display:block;margin-left:auto;margin-right:auto">
   </div>
 
   <div class="mySlides">
-    <img src="499Logo.jpg" style="height:400px;display:block;margin-left:auto;margin-right:auto">
+    <img src="499_board_1.jpg" style="height:550px;display:block;margin-left:auto;margin-right:auto">
   </div>
-    
   <div class="mySlides">
-    <img src="499Logo.jpg" style="height:400px;display:block;margin-left:auto;margin-right:auto">
+    <img src="BushingRender.png" style="height:550px;display:block;margin-left:auto;margin-right:auto">
+  </div>
+  <div class="mySlides">
+    <img src="ResonantConverterSimulatedWaveform.png" style="height:550px;display:block;margin-left:auto;margin-right:auto">
   </div>
     
   <a class="prev" onclick="plusSlides(-1)">❮</a>
@@ -141,7 +269,7 @@ features implemented in the design as well as following safety precautions and p
       <img class="demo cursor" src="499_4_cad.jpg" style="width:100%" onclick="currentSlide(1)" alt="Render of the Transformer Core">
     </div>
     <div class="column">
-      <img class="demo cursor" src="499_3_cad.jpg" style="width:100%" onclick="currentSlide(2)" alt="Cad 3">
+      <img class="demo cursor" src="499_3_cad.jpg" style="width:100%" onclick="currentSlide(2)" alt="Render of ?">
     </div>
     <div class="column">
       <img class="demo cursor" src="499_2_cad.jpg" style="width:100%" onclick="currentSlide(3)" alt="Render of the High Voltage Transformer">
@@ -150,40 +278,104 @@ features implemented in the design as well as following safety precautions and p
       <img class="demo cursor" src="499_1_cad.jpg" style="width:100%" onclick="currentSlide(4)" alt="Render of the Transformer tank">
     </div>
     <div class="column">
-      <img class="demo cursor" src="499Logo.jpg" style="width:100%" onclick="currentSlide(5)" alt="This image will be remvoed">
+      <img class="demo cursor" src="499_board_1.jpg" style="width:100%" onclick="currentSlide(5)" alt="Proto board">
     </div>    
     <div class="column">
-      <img class="demo cursor" src="499Logo.jpg" style="width:100%" onclick="currentSlide(6)" alt="This image will be remvoed">
+      <img class="demo cursor" src="BushingRender.png" style="width:100%" onclick="currentSlide(6)" alt="Render of Bushing">
+    </div>
+	<div class="column">
+      <img class="demo cursor" src="ResonantConverterSimulatedWaveform.png" style="width:100%" onclick="currentSlide(7)" alt="Simulated Waveform of Resonant Converter">
     </div>
   </div>
-  <p style="margin-top: 700px;">
+  <p style="margin-top: 200px;">
 </div>
 
-<div class="main" id="section6">
+<div class="main" id="Team">
 <br>
 	<br>
-  <h1>The team</h1>
-  <h2>Arden Blayney</h2>
-  <h3>Description 1</h3>
-  <p style="margin-top: 300px;">
-  <h2>Daniel Pedro</h2>
-  <h3>Description 2</h3>
-  <p style="margin-top: 300px;">
-  <h2>Brandon Ip</h2>
-  <h3>Description 3</h3>
-  <p style="margin-top: 300px;">
-  <h2>Nic Lockwood</h2>
-  <h3>Description 4</h3>
-  <p style="margin-top: 700px;">
+  <header>
+  <h1>The Team</h1>
+  </header>
+  <br>
+  <table style="width:45%">
+  <tr>
+    <th>Name</th>
+    <th>Role</th>
+    <th>Responsibility</th>
+  </tr>
+  <tr>
+    <td>Arden Blayney</td>
+    <td>Team Lead</td>
+    <td style="text-align:left;"><ul>
+  <li>Hardware Design & Calculations</li>
+  <li>3D Printing</li>
+  <li>Transformer Winding</li>
+  <li>Enclosure Design</li>
+  <li>Sourcing Components </li>
+  <li>Testing & Troubleshooting</li>
+	</ul></td>
+  </tr>
+  <tr>
+    <td>Daniel Pedro</td>
+    <td>Hardware & Documentation</td>
+    <td style="text-align:left;"><ul>
+  <li>Hardware Design & Breadboarding</li>
+  <li>Enclosure Design </li>
+  <li>Budget and Parts List Management</li>
+  <li>Project Planning and Management</li>
+	</ul></td>
+  </tr>
+  <tr>
+    <td>Nic Lockwood</td>
+    <td>Firmware</td>
+    <td style="text-align:left;"><ul>
+  <li>Software/Firmware for Microcontroller</li>
+  <li>Display and User Interface (UI) Configuration</li>
+  <li>Gate Signal Modulation Generator</li>
+  <li>PCB Design</li>
+	</ul></td>
+  </tr>
+  <tr>
+    <td>Brandon Ip</td>
+    <td>Software</td>
+    <td style="text-align:left;"><ul>
+  <li>Website Design</li>
+  <li>Software-related tasks</li>
+  <li>Documentation</li>
+  <li>Logbooks</li>
+	</ul></td>
+  </tr>
+	</table>
+	<p style="margin-top: 110px;">
 </div>
 
-<div class="main" id="section7">
+<div class="main" id="Showcase">
 <br>
 	<br>
 	<h2>Please join us at the 2024 Capstone Design Showcase </h2>
 	<h2>The event is held at the Gorge Park Pavillion from 4:00 pm - 6:00 pm on July 30th, 2024</h2>
   <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2646.5306015720957!2d-123.40752958822941!3d48.44634812949534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548f736b0a93e2b9%3A0xc69656137e5396c4!2sEsquimalt%20Gorge%20Park%20%26%20Pavilion!5e0!3m2!1sen!2sca!4v1719980443835!5m2!1sen!2sca" width="1100" height="600" style="border:0;"></iframe></p>
-  <p style="margin-top: 700px;">
+  <p style="margin-top: 50px;">
+</div>
+
+<div class="main" id="Acknowledgement">
+<br>
+	<br>
+	<header>
+  <h1>Acknowledgements</h1>
+  </header>
+	<h3>Our team would like to briefly acknowledge the many community members that pulled together to make this project possible:</h3> 
+	<br>
+<h3>Firstly, we would like to thank our project supervisor, Mihai Sima, ECE professor and program director at the University of Victoria, for overseeing and advising our team through the project development process. </h3> 
+<br>
+<h3>We acknowledge the effort and contribution of the course instructor, Sana Shuja, the ECE department at UVIC, and Co-operative Education and Work-Integrated Learning (CEWIL) Canada for arranging for a portion of funding which enabled us to properly undertake  this project. </h3> 
+<br>
+<h3> Additionally, we thank the following people for their assistance as noted: </h3>
+<h3> The ECE499 teaching assistants, for providing grading and feedback on technical reports. </h3>
+<h3> The IEEE Department and lab, providing an excellent storage area and workspace. </h3>
+<h3> The (FIND ROOM NAME) UVIC Chemistry Dept. lab technicians for supplying a vacuum pump and chamber. </h3>
+<h3> The many peers, classmates, friends, and family that offered mental, emotional, informational, or financial support throughout the process.</h3>
+<p style="margin-top: 300px;">
 </div>
 
 <script src="script.js"></script>
