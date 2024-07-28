@@ -8,13 +8,14 @@ html {
 
 h1 {
 	text-align : center;
+	font-size:40px;
 }
 
 h2 {
 	width:70%;
 	text-align : center;
 	margin:auto;
-	font-size:26px;
+	font-size:28px;
 }
 
 h3 {
@@ -28,7 +29,7 @@ h4 {
 	width:83%;
 	text-align : center;
 	margin:auto;
-	font-size:25px;
+	font-size:28px;
 }
 
 p {
@@ -49,7 +50,7 @@ table, td, th {
   margin-right: auto;
   border: 1px solid #954535;
   background-color: #D2B48C;
-  font-size: 25px;
+  font-size: 28px;
 }
 
 .img-container {
