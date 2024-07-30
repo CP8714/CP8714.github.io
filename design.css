@@ -68,10 +68,12 @@ table, td, th {
 }
 
 .navbar {
+	display:flex;
   overflow: hidden;
   background-color: #954535;
 	position: fixed;
-text-align: center;
+align-items: center;
+justify-content: center;
   top: 0;
   width: 100%;
   z-index: 999;
