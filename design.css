@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 
-@media (max-width: 300px) {
+@media (max-width: 600px) {
             .navbar, .main, .container{
                 width: 250%;
             }
