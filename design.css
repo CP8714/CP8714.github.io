@@ -54,12 +54,6 @@ table, td, th {
   font-size: 28px;
 }
 
-@media (max-width: 300px) {
-            .navbar, .main, .container{
-                width: 250%;
-            }
-        }
-
 .img-container {
   display: block;
   margin-left: auto;
@@ -355,6 +349,12 @@ img {
 .demo:hover {
   opacity: 1;
 }
+
+@media (max-width: 300px) {
+            .navbar, .main, .container{
+                width: 250%;
+            }
+        }
 
 
 
