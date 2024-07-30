@@ -11,7 +11,7 @@ html {
 h5 {
 	width:83%;
 	text-align : center;
-	color:blue;
+	color:orange;
 	margin:auto;
 	font-size:27px;
 	line-height:2;
@@ -140,7 +140,6 @@ body {
 
 .timeline {
   white-space: nowrap;
-  width:100%;
   padding: 0 10px;
   margin: 0 auto;
   display: grid;
