@@ -2,6 +2,12 @@ html {
   scroll-behavior: smooth;
 }
 
+@media (max-width: 300px) {
+            .navbar, .main, .container{
+                width: 250%;
+            }
+        }
+
 * {
   box-sizing: border-box;
 }
@@ -269,12 +275,6 @@ img {
 .container {
   position: relative;
 }
-
-@media (max-width: 300px) {
-            .navbar, .main, .container{
-                width: 250%;
-            }
-        }
 
 /* Hide the images by default */
 .mySlides {
