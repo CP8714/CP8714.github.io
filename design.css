@@ -54,6 +54,12 @@ table, td, th {
   font-size: 28px;
 }
 
+@media (max-width: 600px) {
+            .navbar, .main {
+                width: 100%;
+            }
+        }
+
 .img-container {
   display: block;
   margin-left: auto;
@@ -68,12 +74,10 @@ table, td, th {
 }
 
 .navbar {
-	display:flex;
   overflow: hidden;
   background-color: #954535;
 	position: fixed;
-align-items: center;
-justify-content: center;
+text-align: center;
   top: 0;
   width: 100%;
   z-index: 999;
