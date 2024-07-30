@@ -55,7 +55,7 @@ table, td, th {
 }
 
 @media (max-width: 300px) {
-            .navbar, .main{
+            .navbar, .main, .container{
                 width: 250%;
             }
         }
