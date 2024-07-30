@@ -8,15 +8,6 @@ html {
             }
         }
 
-h5 {
-	width:83%;
-	text-align : center;
-	color:blue;
-	margin:auto;
-	font-size:27px;
-	line-height:2;
-}
-
 * {
   box-sizing: border-box;
 }
