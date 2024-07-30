@@ -270,6 +270,12 @@ img {
   position: relative;
 }
 
+@media (max-width: 300px) {
+            .navbar, .main, .container{
+                width: 250%;
+            }
+        }
+
 /* Hide the images by default */
 .mySlides {
 	display: block;
@@ -349,12 +355,6 @@ img {
 .demo:hover {
   opacity: 1;
 }
-
-@media (max-width: 300px) {
-            .navbar, .main, .container{
-                width: 250%;
-            }
-        }
 
 
 
