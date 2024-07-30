@@ -54,8 +54,8 @@ table, td, th {
   font-size: 28px;
 }
 
-@media (max-width: 600px) {
-            .navbar, .main, .timeline{
+@media (max-width: 300px) {
+            .navbar, .main{
                 width: 250%;
             }
         }
